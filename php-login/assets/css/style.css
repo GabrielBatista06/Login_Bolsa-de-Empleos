@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    width: none;
+}
+
+input[type="text"],input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 2px solid #5dbfe6 ;
+    margin: 20px auto;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    color: #4415eb;
+    background: #0098cb;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover{
+    background-color: #6aa6c2;
+}
+
+header{
+    border-bottom: 2px solid gray;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(87, 145, 233);
+    font-size: 20px;
+
+}
+
+header a{
+    text-decoration: none;
+    color: #333;
+}
+
